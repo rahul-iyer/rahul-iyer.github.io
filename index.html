@@ -57,6 +57,16 @@ layout: default
                                 <div class="timeline-heading">
                                     {% if project.title %}
                                         <h4 class="timeline-title">{{ project.title }}</h4>
+                                        <p>
+                                        
+                                            {% if project.research %}
+                                             <small class="text-muted" style="color:red;">Research</small>  
+                                            {% endif %}
+                                            {% if project.course %}
+                                             <small class="text-muted">Course</small>  
+                                            {% endif %}
+                                        
+                                    </p>
                                     {% endif %}
                                 </div>
                                 <div class="timeline-body">

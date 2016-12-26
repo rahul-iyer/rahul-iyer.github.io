@@ -5,7 +5,7 @@ favicon: /assets/img/my_pic.jpg
 baseurl: https:rahul-iyer.github.io/
 url: https:rahul-iyer.github.io/
 rss_url: /pages/atom.xml
-#google_analytics: UA-63653234-1
+
 
 # Build settings
 markdown: kramdown
@@ -80,16 +80,34 @@ author:
   projects:
     - project1:
       date: 2016
+      research: Y
       title: RecoMob Opinion Mining for Product Enhancement
       description: The primary objective was to understand mobile features like positive and negative aspects of a product from user-provided reviews by determining the sentiment. I used a Deep Recurrent neural network to classify the reviews for which I converted 3000 reviews of top mobile brands from Amazon and Flipkart into sentiment treebank model and used this as my training set. I have consolidated my research into a paper titled RecoMob- Opinion Mining for Product Enhancement in 2017 IEEE International Conference on Computer Communication and Informatics
     - project2:
       date: 2015
+      research: Y
       title: English to SQL Machine Transaltion
       description: I used statistical machine translation to convert English sentences (questions/query) into SQL with the help of MOSES and MGIZA++ (Word Aligner) to translate sentences.The system was fed with parallel training text data containing 500 sentences, one in English and the other in SQL having its corresponding translation.
     - project3:
+      research: Y
       date: 2014
       title: All Round Student evaluation System
       description: This system was used to track a student’s academic records, extracurricular activities, research and work experience to predict their calibre and determine if they are all round students. The system not only made predictions but also suggested how students could improve their weaknesses.
+    - project4:
+      date : 2016
+      course : Y
+      title: Airline delay prediction using Apache Hadoop and R
+      description: Wrote a logistic regression model to predict the delay of flight aircraft using various parameters such as weather, flight reroute status, data time, airline carrier name, airport etc using R and Hadoop on 5 million flight details of US and analyzed different patterns of delay.
+    - project5:
+      date : 2015
+      title : SMS spam detection
+      course: Y 
+      description: Conducted text analytics on SMSs and classified them into spam or ham using Support Vector Machine.
+    - project6:
+      date: 2014
+      title : Virtual Private Network using Raspberry Pi
+      course : Y
+      description : Wrote a simple shell script to switch to a private network whenever RPi connects to a network using wlan0 interface.
   languages:
     - language1:
       name: Tamil
