@@ -39,6 +39,7 @@ author:
                   3. I have used Big Data handling technologies such as Apache Spark's MLlib to conduct text mining on life insurance claims.<br>
                   4. I have also developed a complete full fledged Database and site search engine using Elastic search and deployed it as an AWS service. Here the data was migrated from Legacy MySQL System to a NoSQL database.<br>
                   5. Made a Restful API Service to fetch data from Elasticsearch which handled all HTTP queries.
+                  6. Designed a complete Serverless system of VCCEdge sytem , deployed it in AWS Lambda and authentication using Auth0.
     - work2:
       company: News Corp BigDecisions
       location: Mumbai, India
@@ -148,6 +149,9 @@ author:
       name: Search
       description: Apache Lucene, Elasticsearch
     - skill4:
+      name: Deep Learning
+      description: Theano, Tensorflow
+    - skill5:
       name: Other
       description: Machine Learning, NLP and Specialized Mining Algorithms for Big Data
 
