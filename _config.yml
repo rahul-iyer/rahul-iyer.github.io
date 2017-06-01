@@ -1,11 +1,21 @@
 # Site settings
 title: Rahul Iyer's CV 
-description: rahul-iyer's CV
+description: Rahul Iyer's CV (Data Scientist)
 favicon: /assets/img/my_pic.jpg
-baseurl: https:rahul-iyer.github.io/
-url: https:rahul-iyer.github.io/
+baseurl: https://rahul-iyer.github.io/resume
+url: https://rahul-iyer.github.io/resume
 rss_url: /pages/atom.xml
+#for seo
+gems:
+  - jekyll-seo-tag
+social:
+  name: Rahul Iyer
+  links:
+    - https://www.facebook.com/rahulniyer
+    - https://www.linkedin.com/in/rahulniyer/
+    - https://github.com/rahul-iyer
 
+google-site-verification: Abe5GAr5C5co686N8lvz0KXNR5WbHIHu_g9mQdB_eaM
 
 # Build settings
 markdown: kramdown
