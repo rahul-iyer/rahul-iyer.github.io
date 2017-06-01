@@ -2,8 +2,8 @@
 title: Rahul Iyer's CV 
 description: Rahul Iyer's CV (Data Scientist)
 favicon: /assets/img/my_pic.jpg
-baseurl: https://rahul-iyer.github.io/resume
-url: https://rahul-iyer.github.io/resume
+baseurl: https://rahul-iyer.github.io
+url: https://rahul-iyer.github.io
 rss_url: /pages/atom.xml
 #for seo
 gems:
