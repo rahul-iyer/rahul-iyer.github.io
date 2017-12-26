@@ -1,22 +1,26 @@
-<div class="header">
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="col-sm-4">
-                <img src="{{ site.favicon | prepend: site.baseurl }}" title="Avatar" alt="My Avatar">
-                <h4>{{ site.author.name }}</h4>
-                <p>{{ site.author.title }}</p>
-                <p class="muted">{{ site.author.address }}</p>
-                <div class="clearfix"></div>
-            </div>
-            <div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
-                <p><i class="fa fa-envelope-o fa-fw"></i> {{ site.author.email }} </p>
-                <p><i class="fa fa-github fa-fw"></i><a href="//github.com/{{ site.author.github }}" target="_blank">  @{{ site.author.github }} </a></p>
-                <p><i class="fa fa-linkedin-square fa-fw"></i> <a href="//linkedin.com/in/{{ site.author.linkedin }}" target="_blank"> linkedin.com/in/{{ site.author.linkedin }} </a></p>
-                
-            </div>
-            <div class="col-sm-4 visible-md-block visible-lg-block">
-                <a href="/rahul-iyer-cv.pdf" class="btn btn-dark"><i class="icon-file icon-white"></i> Download.pdf </a>
-            </div>
-        </div>
-    </div>
-</div>
+{% if page.title == "Home"
+   or page.title == "Blog"
+   or page.title == "Projects"
+   or page.title == "Tags"
+%}{% assign showHeader = true %}{% endif %}
+
+{% if showHeader == true %}
+    <header class="header-home {% if site.animation %}animated{% endif %}">
+        {% if site.about %}
+            <a class="link" href="{{ site.url }}/about">
+                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+            </a>
+        {% else %}
+            <span class="link">
+                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+            </span>
+        {% endif %}
+
+        <h1 class="title">{{ site.name }}</h1>
+        <h2 class="description">{{ site.bio }}</h2>
+
+        {% include social-links.html %}
+    </header>
+{% endif %}
+
+{% include nav.html %}
