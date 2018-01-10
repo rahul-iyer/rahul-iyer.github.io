@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-26T13:30:11-05:00</updated><id>http://localhost:4000/</id><title type="html">Rahul Iyer</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">RecoMob : Opinion Mining for Product Recommendation</title><link href="http://localhost:4000/recomob/" rel="alternate" type="text/html" title="RecoMob : Opinion Mining for Product Recommendation" /><published>2016-03-31T00:00:00-04:00</published><updated>2016-03-31T00:00:00-04:00</updated><id>http://localhost:4000/recomob</id><content type="html" xml:base="http://localhost:4000/recomob/">&lt;!-- ![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png) --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-10T17:44:21-05:00</updated><id>http://localhost:4000/</id><title type="html">Rahul Iyer</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">Photorealistic style Transfer for Videos</title><link href="http://localhost:4000/photorealistic-style-transfer-for-videos/" rel="alternate" type="text/html" title="Photorealistic style Transfer for Videos" /><published>2017-12-12T00:00:00-05:00</published><updated>2017-12-12T00:00:00-05:00</updated><id>http://localhost:4000/photorealistic-style-transfer-for-videos</id><content type="html" xml:base="http://localhost:4000/photorealistic-style-transfer-for-videos/">&lt;!-- ![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png) --&gt;
+
+&lt;!-- Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles. --&gt;
+&lt;p&gt;You can get code &lt;a href=&quot;#&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;This is a project undertaken by a me, &lt;a href=&quot;https://www.facebook.com/profile.php?id=100008386298560&quot;&gt;Michael Honke&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/dishant-mittal-7b9b40bb/&quot;&gt;Dishant Mittal&lt;/a&gt;  as a course project for &lt;a href=&quot;https://uwaterloo.ca/data-analytics/teaching/deep-learning-2017&quot;&gt;Deep learning Fall 2017&lt;/a&gt; at University of Waterloo.
+Photo-realistic style transfer is a technique which transfers colour from one
+reference domain to another domain by using deep learning and optimization
+techniques. Here, we present a technique which we use to transfer style and
+colour from a reference image to a video. We take help from 2 different papers.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1.Deep Photo Style Transfer Luan et al.
+2.Artistic style transfer for videos Ruder et al.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;More Details will be available soon. Here are some of the examples:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6Q8gu70f2Uk&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YAqPm6xy6nw&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/z6Q2wEH6ARU&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>rahuliyer</name></author><category term="project" /><category term="deep learning, computer vision" /><summary type="html"></summary></entry><entry><title type="html">RecoMob : Opinion Mining for Product Recommendation</title><link href="http://localhost:4000/recomob/" rel="alternate" type="text/html" title="RecoMob : Opinion Mining for Product Recommendation" /><published>2016-03-31T00:00:00-04:00</published><updated>2016-03-31T00:00:00-04:00</updated><id>http://localhost:4000/recomob</id><content type="html" xml:base="http://localhost:4000/recomob/">&lt;!-- ![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png) --&gt;
 
 &lt;!-- Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles. --&gt;
 &lt;p&gt;You can get code &lt;a href=&quot;https://github.com/rahul-iyer/OpinionMiningForProductEnhancement&quot;&gt;Here&lt;/a&gt;
