@@ -20,4 +20,4 @@ You can get code [Here](#)
 
 ---
 
-An experiment which shows how we can use transfer learning to improve the accuracy where we need to learn from less amount of data. Mapped the 64 emojis set to 12 emotions and predict their appropriate classes. This method improved the accuracy by previous simple deep learning method by over 8%.
+An experiment which shows how we can use transfer learning to improve the accuracy where we need to learn from less amount of data. Mapped the 64 emojis set to 12 emotions and predict their appropriate classes. This method improved the accuracy by 8%.
