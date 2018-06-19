@@ -1,7 +1,7 @@
 ---
 title: "Taxonomy Classification on Rakuten products dataset"
 layout: post
-date: 2018-06-01
+date: 2018-06-10
 tag: computer vision, AI
 <!-- image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png -->
 <!-- headerImage: true -->

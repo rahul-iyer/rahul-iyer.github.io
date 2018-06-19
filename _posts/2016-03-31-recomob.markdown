@@ -1,5 +1,5 @@
 ---
-title: "RecoMob : Opinion Mining for Product Recommendation"
+title: "RecoMob : Opinion Mining for Product Enhancement"
 layout: post
 date: 2016-03-31
 tag: [natural langauge processing, deep learning]
